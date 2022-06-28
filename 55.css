@@ -1,0 +1,115 @@
+*{font-family: Roboto;
+  background-color: gainsboro;
+}
+.container {
+  width: 900px;
+  height: 500px;
+  border: 3px solid palevioletred ;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 20px;
+}
+.col {
+  width: 294px;
+  height: 495px;
+  background-color: gray;
+  float: left;
+  border: 3px solid black;
+  text-align: center;
+}
+.col2 {
+  width: 294px;
+  height: 495px;
+  background-color: gray;
+  float: left;
+  border: 3px solid black;
+  text-align: center;
+}
+.col3 {
+  width: 294px;
+  height: 495px;
+  background-color: gray;
+  float: left;
+  border: 3px solid black;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+@media  (min-width: 992px) {
+  .col {
+    background-color: gray;
+  }
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+  .container{
+    width: 300px;
+    padding-bottom: 1062.5px;
+    margin-bottom: 100px;
+  }
+  .col {
+    background-color: gray;
+    width: 294px;
+    height: 495px;
+    border: 3px solid black;
+    text-align: center;
+    color: rgb(39, 16, 61);
+    }
+  .col2 {
+    background-color: gray;
+    width: 294px;
+    height: 495px;
+    border: 3px solid black;
+    text-align: center;
+    color: rgb(39, 16, 61);
+    margin-top: 30px;
+    }
+  .col3 {
+    background-color: gray;
+    width: 294px;
+    height: 495px;
+    border: 3px solid black;
+    text-align: center;
+    color: rgb(39, 16, 61);
+    margin-top: 30px;
+    }
+  
+}
+@media  (min-width: 0px) and (max-width: 767px) {
+  
+    .container{
+      width: 300px;
+      padding-bottom: 1062.5px;
+      margin-bottom: 100px;
+    }
+    .col {
+      background-color: gray;
+      width: 294px;
+      height: 495px;
+      border: 3px solid black;
+      text-align: center;
+      color: rgb(16, 61, 57);
+      }
+    .col2 {
+      background-color: gray;
+      width: 294px;
+      height: 495px;
+      border: 3px solid black;
+      text-align: center;
+      color: rgb(16, 61, 57);
+      margin-top: 30px;
+      }
+    .col3 {
+      background-color: gray;
+      width: 294px;
+      height: 495px;
+      border: 3px solid black;
+      text-align: center;
+      color: rgb(16, 61, 57);
+      margin-top: 30px;
+      }
+  }
